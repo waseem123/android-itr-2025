@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:background="#9b2a13"
+    android:padding="16dp"
+    android:layout_margin="16dp"
+    tools:context=".DashboardActivity">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_margin="2dp"
+        android:layout_gravity="center"
+        android:src="@drawable/catering" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:src="@drawable/flight" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:src="@drawable/bus" />
+
+</LinearLayout>
