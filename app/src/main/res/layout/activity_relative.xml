@@ -32,9 +32,26 @@
         android:layout_height="24dp"
         android:layout_below="@id/et_fullname"
         android:layout_toEndOf="@id/label_city" />
-<Button
-    android:layout_width="wrap_content"
-    android:text="Submit"
-    android:layout_centerInParent="true"
-    android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/et_city"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="150dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/et_city"
+            android:scaleType="centerCrop"
+            android:src="@drawable/amazon_logo" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Submit" />
 </RelativeLayout>
